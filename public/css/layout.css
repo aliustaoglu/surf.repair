@@ -1,0 +1,404 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.body_pattern .infobox { width: 33%; }
+		
+		.body_pattern .col444 img { width: 100%; }
+		.body_pattern .menu ul.menusm { margin-right: 0px; }
+		.body_pattern .capt { padding: 11px 20px 13px; width: 82.5%; bottom: 62px; }
+		.body_pattern .content-slider-nav { bottom: -65px; }
+		.body_pattern .capt p { font-size: 9px; }
+		.body_pattern .partn a { width: auto; }
+		
+		.body_pattern .p_item_img { width: 45%; }
+		.body_pattern .p_item_text { margin-left: 178px; }
+		
+		.body_pattern .colums_box { margin: 4% 1% 3%; }
+
+		.body_pattern .col4 { margin-right: 19px; }
+		.body_pattern .col443 { margin-right: 19px; }
+		
+		.body_pattern .col4444 { margin-right: 19px; }
+		.body_pattern .col44 { margin-right: 19px; }
+		.body_pattern .col3 { margin-right: 25px; }
+		.body_pattern .now_page_resize2 { padding-top: 30px; }
+		.body_pattern .slider_body { height: 239px!important; }
+		.body_pattern .col4p { margin-right: 19px; }
+		.body_pattern .col4p.last { margin-right: 0px; }
+		
+		.body_pattern .col444 { margin-right: 14px; }
+		.body_pattern .menufooter a { font-size: 10px; }
+		.body_pattern .footer p { font-size: 10px!important; }
+		
+		.body_pattern h3.h3_act_href a.ico_1 { padding-left: 34px; }
+		.body_pattern .col3 { margin-right: 14px; }
+		.body_pattern .col3.last { margin-right: 0px; }
+		
+		.body_pattern .fcol3 { margin: 0px; width: 100%; }
+		
+		.body_pattern .fromblog { width: 28%; }
+		
+		.body_pattern .jcarousel-skin-tango .jcarousel-container-horizontal { margin-right: 0px; width: 32%; }
+		.body_pattern .jcarousel-skin-tango .jcarousel-container-horizontal p { padding-right: 43px; }
+		
+		.body_pattern #webstore { font-size: 15px!important; min-width: 391px!important; }
+		
+		.body_pattern #coment img { float: none; }
+		.body_pattern #coment2 img { float: none; }
+		.body_pattern #coment .podpis { float: none; }
+		.body_pattern #coment2 { margin-left: 0px; }
+		.body_pattern #coment2 img { float: none; }
+		.body_pattern #coment2 .podpis { float: none; }
+		.body_pattern #coment3 { margin-left: 0px; }
+		.body_pattern #coment3 img { float: none; }
+		.body_pattern #coment3 .podpis { float: none; }
+		.body_pattern #coment { padding-bottom: 12px; }
+		.body_pattern #coment br { display: none; }
+		.body_pattern #coment2 br { display: none; }
+		.body_pattern #coment3 br { display: none; }
+		.body_pattern #coment3 .podpis { width: 100%; }
+		.body_pattern .r_plus_overlay { display: none; }
+
+		.prefooter .container .fcol { margin-right: 28px; }
+		}
+		
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#controls { right: 6%!important; }
+		#slider .nivo-directionNav a { bottom: 98px; }
+		#slider-wrapper object { height: 315px; }
+		 }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.body_pattern .menu { padding: 0px; margin: 0px; width: 100%; }
+		#panel_setting_side { position: absolute !important; top: 30% !important; z-index: 9999999 !important; }
+		.body_pattern .header_resize p { padding-top: 15px; }
+		.body_pattern .header_menu { padding: 0px; margin: 0px; width: 100%; }
+		
+		.container .gallery-categ li a { padding: 5px 7px; font-size: 9px; }		
+		
+		.body_pattern .r_plus { display: none; }
+		.body_pattern .logo div a { font-size: 30px!important; }
+		
+		.body_pattern .content_page.din.add { padding: 0px; margin-left: 5%; width: 90%; }
+		.camera_caption > div { padding: 5px !important; font-size: 8px !important; line-height: 12px; }
+		div.ppt { display: none !important; }
+		#slider-wrapper object { height: 240px; }
+		.body_pattern div.dc_pricingtable03 div.caption_column { margin-left: 0px; }
+		.body_pattern div.dc_pricingtable03 div.column_1 { margin-left: 0px; }
+		.body_pattern div.dc_pricingtable03 div.column_2 { margin-left: 0px; }
+		.body_pattern div.dc_pricingtable03 div.column_3 { margin-left: 0px; }
+		.body_pattern div.dc_pricingtable03 div.column_4 { margin-left: 0px; }
+		.body_pattern .dc_pricingtable05 { margin-left: 0px; }
+		.body_pattern .dc_pricingtable06 { margin-left: 0px; }
+		
+		.body_pattern .cols2 .img_hover_box.pic a { height: auto; }
+		
+		.body_pattern .nivo-caption p { font-size: 9px; line-height: 11px; }
+		
+		.body_pattern .get { padding: 0px; margin-left: 5%; width: 90%; }
+		
+		.body_pattern .content_page.din { padding: 0px; margin-left: 5%; width: 90%; }
+		.body_pattern .content_page.gapp { padding: 20px 0 0 0; margin-left: 5%; width: 90%; }
+		
+		.body_pattern .col2.big2 { width: 100%; }
+		.body_pattern .p_item_img { width: 100%; float: none; height: auto; }
+		.body_pattern .partn { margin-right: 36px; }
+		.body_pattern .col2.big2.last.non { display: none; }
+		.body_pattern .col2.big2.last.show { display: block; }
+		.body_pattern .p_item_text { margin: 0px; }
+		
+		.body_pattern .now_page.som { padding-bottom: 80px; }
+		
+		.body_pattern .caption_column span { padding: 0px; width: 100%; display: block; text-align: center; }
+
+		.body_pattern .col44 { margin-right: 0px; width: 100%; }
+		.body_pattern .col44a { margin: 0px; width: 100%; }
+
+		.body_pattern .col4 { margin-right: 0px; width: 100%; }
+		.body_pattern .div_h3_act_href { padding-bottom: 0px; }
+
+		.body_pattern .col443 { margin: 20px 0 0 0; width: 100%; }
+		.body_pattern .col443.last { margin: 20px 0 0 0; }
+
+		.body_pattern .capt { padding: 8px 0 8px 15px; bottom: 120px; width: 81.5%; }
+		.body_pattern .capt p { line-height: 15px; }
+		.body_pattern .nivoSlider .next { bottom: 96px; }
+		.body_pattern .nivoSlider .prev { bottom: 96px; }
+
+		.body_pattern .col4444 { padding: 10px 0 0 0; margin: 10px 0 0 0px; width: 100%; }
+		.body_pattern .col44u.last { width: 100%; }
+		
+		.body_pattern .logo { padding: 15px 0 20px 0px; float: none; text-align: center; width: auto; }
+		.body_pattern .logo div { float: none; text-align: center; }
+		.body_pattern .header_menu { float: none; }
+		
+		.body_pattern .menufooter { float: none; }
+		.body_pattern .copyright { float: none; }
+		
+		.body_pattern h4.linebg2 span { width: auto; text-align: center; }
+
+		.body_pattern .centercol { margin-left: 5%; width: 90%; }
+		.body_pattern .sidebar { margin-left: 5%; width: 90%; }
+		
+		.body_pattern p { text-align: justify; }
+		
+		.container .columns2 { padding: 20px 3% 0 3%; width: 94%; }
+		.container .columns1 { padding: 20px 3% 0 3%; float: left; width: 94%; }
+		.body_pattern .fromblog { padding: 20px 3% 0 3%; float: left; width: 94%; }
+		.body_pattern .jcarousel-skin-tango .jcarousel-container-horizontal { padding: 20px 3% 0 3%; margin-top: 20px; float: left; width: 94%; }
+		
+		.body_pattern .columns1.hide { display: block; }
+		.body_pattern .columns1.show { display: none; }
+		.body_pattern .jcarousel-skin-tango .jcarousel-item { width: 400px; }
+		.body_pattern .jcarousel-skin-tango .jcarousel-container-horizontal p { padding-right: 0px; } 
+		
+		.body_pattern .fromblog.from1 { margin: 0px; }
+		
+		.body_pattern .right { float: left; }
+		
+		.body_pattern .col444 { margin: 0px; width: 100%; }
+		.body_pattern .col444.first { margin: 0px; }
+		.body_pattern .content_page2 { padding: 0 3%; width: 94%; }
+		.body_pattern .columns3 { margin: 0px; padding: 15px 0 15px 0; }
+		.body_pattern .col444 h4 { padding: 0 0 10px 15px; }
+		
+
+		.body_pattern .img_hover_box.pic a:hover img.h2 { display: none; }
+
+		.body_pattern .col3 { margin-bottom: 15px; margin-right: 0px; width: 100%; }
+		
+		.body_pattern .now_page_resize h1 { padding: 10px 0 0 15px; }
+		.body_pattern .now_page_resize p { padding: 10px 20px 15px 15px; }
+		
+		.body_pattern .content { margin: 0px; }
+		
+		.body_pattern .cols1 .img_hover_box.pic a { height: 250px; }
+		
+		.body_pattern .gap5 { padding-left: 1%; float: left; width: auto; }
+		
+		.body_pattern .columns1 { padding-top: 25px; }
+		.body_pattern .gallery-categ { float: left; }
+		
+		.body_pattern .fl { float: none; }
+		
+		.body_pattern .nivo-caption h4 { font-size: 9px; }
+		
+		.body_pattern .columns1 { margin-top: 0px; }
+		
+		.body_pattern .colums_box { padding: 0px; margin-bottom: 15px; }
+		.body_pattern .colums_box img { margin-bottom: 20px; }
+		.body_pattern .colums_box img:hover { margin-bottom: 20px; }
+		
+		.body_pattern .nivo-directionNav a { bottom: 37px; }
+		.body_pattern .nivo-caption { left: 14%; bottom: 0px; width: auto; }
+		.body_pattern .nivo-caption h4 { padding: 3px 3px; font-size: 8px; line-height: 12px;  }
+		
+		.body_pattern .nivo-caption { padding: 0px; width: 70%; }
+		.body_pattern .nivo-caption p {  padding: 5px; font-size: 8px; line-height:n 10px; width: auto; }
+
+		.body_pattern .col4p { margin-right: 0px; width: 100%; }
+		
+		.body_pattern .logodiv { margin-left: 27%; }
+		.body_pattern .leftside2 .fcol2 { padding: 0 20px; margin: 0px; width: auto; }
+
+		.body_pattern .dc_pricingtable02 .pricing_column_first li.pricing_header2 span { text-align: center; width: 100%; display: block; }
+		.body_pattern .dc_pricingtable02 a.tooltip { margin-left: 40%; }
+		.body_pattern .dc_pricingtable02 .pricing_column_first li span { width: 100%; text-align: center; display: block; }
+				
+		.body_pattern #webstore { font-size: 11px!important; min-width: 304px!important; }
+		
+		.body_pattern .colums_box { margin: 0px; width: 100%; }
+		.body_pattern .leftside { min-height: 586px !important; }
+		
+		.body_pattern .pic img { width: 100%; height: auto; }
+		
+		.body_pattern .img_hover_box.pic a img.h { display: none; }
+		
+		.body_pattern .img_hover_box.pic .img_hover_overlay { display: none; }
+		
+		.body_pattern .col2.big { margin: 0px; width: 100%; }
+		.body_pattern .col2 { margin: 0px; width: 100%; }
+		
+		.body_pattern .footer_resize { padding-top: 10px; overflow: hidden; }
+		
+		.body_pattern .menu .menusm { display: none!important; }
+		.body_pattern .menu select { padding: 4px 2% 4px 2%; margin: 4px 0 15px 0; height: 36px; display: block!important; float: left; width: 100%; }
+		.body_pattern .search { float: left; }
+		.body_pattern .search input.editbox_search { margin-bottom: 10px; width: 270px; }
+		.body_pattern .RSS p { float: none; }
+		.body_pattern .callus { margin: 0px 0 10px 0; float: left; }
+		
+		.body_pattern .pricing_six .pricing_column, .pricing_six .pricing_column_first { width: 100%!important; }
+		
+		.body_pattern .pricing_column_first.gap { width: 100%!important; }
+		.body_pattern div.dc_pricingtable03 div.caption_column { width: 100%!important; }
+		.body_pattern div.dc_pricingtable03 div.column_1 { width: 100%!important; }
+		.body_pattern div.dc_pricingtable03 div.column_2 { width: 100%!important; }
+		.body_pattern div.dc_pricingtable03 div.column_3 { width: 100%!important; }
+		.body_pattern div.dc_pricingtable03 div.column_4 { width: 100%!important; }
+		.body_pattern .dc_pricingtable05 ul { width: 100%; }
+		.body_pattern .dc_pricingtable06 ul { width: 100%; }
+		.body_pattern .change.some.en br { display: none; }
+		
+		 .prefooter .container .fcol { margin-right: 0px; width: 100%; }
+
+		.body_pattern .one { display: none; }
+		.body_pattern .two { display: block; }
+		
+		.footer .container p { text-align: left; }
+		
+		.body_pattern .small_boxindex { padding: 0px; margin: 0px; width: 100%; }
+				
+		.body_pattern #catalogue .product { width: 100%; float: none; }
+		.body_pattern .product.last-column .webstore-clear { margin-left: -5px; }
+		.body_pattern #webstore #catalogue .product:first-child > div, #catalogue .product:first-child + li > div { margin: 0 0 5px 0; }
+		.body_pattern #webstore #catalogue .first-column > div { margin: 0 0 5px 0; }
+		.body_pattern #webstore #catalogue .last-column > div { margin: 0 0 5px 0; }
+		.body_pattern #cart .description { font-size: 8px; height: auto; }
+		.body_pattern #cart-list .title, #cart-list .price { font-size: 8px; }
+		.body_pattern #webstore input, #webstore select { width: 15px; height: 13px; }
+		.body_pattern #cart input.quantity { width: 6%; }
+		.body_pattern #cart-list .price span { padding-left: 5px; font-size: 6px; font-weight: bold; width: auto; }
+		.body_pattern #webstore .cart-totals label { font-size: 7px; }
+		.body_pattern #webstore .cart-totals label + span { font-size: 7px; }
+		.body_pattern #webstore .cart-totals label { width: 0px; }
+		.body_pattern #webstore .cart-options label { font-size: 7px; font-weight: bold; }
+		.body_pattern #webstore input, #webstore .right.cart-options select { padding: 2px; width: 67px; font-size: 7px; }
+		.body_pattern #webstore button span { padding: 0px 2px 0 2px; font-size: 5px; height: 26px; line-height: 26px; }
+		.body_pattern #catalogue .price, #webstore button { height: 37px; }
+		.body_pattern #checkout form > div:first-child label { margin: 0px; font-size: 9px; }
+
+		.body_pattern .pic.fl { margin: 0px; }
+		.body_pattern .pic.fr { margin: 0px; }
+		.body_pattern .fr { float: none; }
+		.body_pattern .fr.detail { float: right; }
+		.body_pattern .fl.detail { float: left; }
+		.body_pattern .fl.btn { float: left; }
+		
+		.body_pattern .mask { display: none; }
+		
+		.body_pattern .infobox { width: 100%; }
+		.body_pattern .infobox:hover { width: 100%; }
+		
+		.body_pattern .maps_view { width: 98%; }
+		
+		.body_pattern .slider_box { height: auto; }
+		.body_pattern .logofooter { padding-top: 20px; padding-bottom: 0px; margin-left: 0px; }
+		.body_pattern .footer { margin-top: 0px; }
+		
+		}
+ 
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#controls { right: 8%!important; }
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		.container .gallery-categ li a { padding: 5px 10px; font-size: 9px; }		
+		.container .content_resize { padding-bottom: 0px; }
+		.body_pattern .capt { bottom: 204px; width: 64.5%; }
+		.body_pattern .capt p { font-size: 7px; line-height: 10px; }
+		.body_pattern .nivoSlider .next { bottom: 64px; }
+		.body_pattern .nivoSlider .prev { bottom: 64px; }
+		
+		.body_pattern .nivo-caption { left: 16%; bottom: 6px; }
+		.body_pattern .nivo-caption h4 { padding: 2px 5px; font-size: 6px; line-height: 12px; width: auto; }
+		.body_pattern .nivo-caption p { padding: 2px 5px; font-size: 6px; line-height: 10px; }
+		.body_pattern .nivo-directionNav a { bottom: 27px; }
+		
+		.body_pattern #slider1 .overview li { width: 300px; }
+		
+		.body_pattern .nik { padding-left: 12%; float: left; width: auto; }
+		
+		.body_pattern .cols1 .img_hover_box.pic a { height: 178px; }
+
+		.footer .container p { text-align: left; }
+		.body_pattern .menufooter a { font-size: 8px; }
+		.body_pattern .footer p { font-size: 8px!important; }
+
+		.body_pattern .logodiv2 { margin-left: 13%; }
+		
+		.body_pattern .maps_view { width: 97%; }
+
+		.body_pattern .jcarousel-skin-tango .jcarousel-item { width: 287px; }
+
+		.body_pattern .RSS { margin: 0 0 0 0; float: left; }
+		.body_pattern p.staycon { margin: 0px 0 5px 0; float: none; }
+		.body_pattern .RSS img { margin: 0 40px 18px 0; float: left; }
+
+		.body_pattern #webstore h3.title { font-size: 7px; }
+		.body_pattern #webstore p { font-size: 7px; }
+		.body_pattern #catalogue .product > div { padding: 20px 0px; }
+		.body_pattern #webstore-container-inner { padding: 20px 10px 0 10px; }
+		.body_pattern #webstore .right { padding-left: 20px; width: auto; }
+
+		.body_pattern .one_third_pad { margin: 0px; width: 100%; }	
+		.body_pattern .two_third_pad { margin: 0px; width: 100%; }
+		.body_pattern #webstore { font-size: 9px!important; min-width: 245px!important;}		
+
+		.body_pattern .maps_view { width: 97%; }
+		
+		.body_pattern .gap5 { padding-left: 8%; }
+		
+		.body_pattern .now_page_resize h1 { line-height: 30px; }
+
+		.body_pattern .dc_pricingtable02 a.tooltip { margin-left: 0%; }
+		
+		.body_pattern .getw { padding-left: 34px; float: left; width: auto; }
+		
+		.body_pattern .logofooter a { margin-left: 42%; }
+		
+		.body_pattern .footer { height: 80px; }
+		.body_pattern .social img { margin-right: 15px; }
+		#slider-wrapper object { height: 160px; }
+		}
+		
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

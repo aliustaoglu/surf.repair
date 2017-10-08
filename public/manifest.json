@@ -1,0 +1,15 @@
+{
+  "short_name": "Surf Repair",
+  "name": "Surf Repair",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "159x106",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
