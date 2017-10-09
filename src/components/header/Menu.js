@@ -250,12 +250,20 @@ class Menu extends Component {
                 </a>
                 <ul>
                   <li>
-                    <a href="http://www.dcodes.net/2/docs/index-format.html" target="_blank" className="menu_navigation">
+                    <a
+                      href="http://www.dcodes.net/2/docs/index-format.html"
+                      target="_blank"
+                      className="menu_navigation"
+                    >
                       <span>Typography >></span>
                     </a>
                     <ul>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/fontstyler.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/fontstyler.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Google Web Fonts</span>
                         </a>
                       </li>
@@ -265,12 +273,20 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/dropcaps.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/dropcaps.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Dropcaps</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/highlighter.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/highlighter.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Text Highlighter</span>
                         </a>
                       </li>
@@ -284,12 +300,20 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/pullquotes.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/pullquotes.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Pullquotes</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/blockquotes.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/blockquotes.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Blockquotes</span>
                         </a>
                       </li>
@@ -308,7 +332,11 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/datagrid.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/datagrid.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Data Grid</span>
                         </a>
                       </li>
@@ -380,7 +408,11 @@ class Menu extends Component {
                     </a>
                     <ul>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/webstore.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/webstore.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Web Store</span>
                         </a>
                       </li>
@@ -394,7 +426,11 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/embed_pdf.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/embed_pdf.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Embed PDF/Office File</span>
                         </a>
                       </li>
@@ -418,7 +454,11 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/rssfeeds.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/rssfeeds.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>RSS Feeds</span>
                         </a>
                       </li>
@@ -460,7 +500,11 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/site_search.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/site_search.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Site Search</span>
                         </a>
                       </li>
@@ -483,12 +527,20 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/message_box.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/message_box.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Message Boxes</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/lightbox.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/lightbox.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>jQuery Lightbox</span>
                         </a>
                       </li>
@@ -520,14 +572,22 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/tooltips.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/tooltips.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Tooltips</span>
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="http://www.dcodes.net/2/docs/index-organize.html" target="_blank" className="menu_navigation">
+                    <a
+                      href="http://www.dcodes.net/2/docs/index-organize.html"
+                      target="_blank"
+                      className="menu_navigation"
+                    >
                       <span>Organize >></span>
                     </a>
                     <ul>
@@ -565,12 +625,20 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/pagination.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/pagination.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Pagination</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/breadcrumbs.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/breadcrumbs.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Breadcrumbs</span>
                         </a>
                       </li>
@@ -598,29 +666,49 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/css_shadows.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/css_shadows.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>CSS Shadows</span>
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="http://www.dcodes.net/2/docs/index-elements.html" target="_blank" className="menu_navigation">
+                    <a
+                      href="http://www.dcodes.net/2/docs/index-elements.html"
+                      target="_blank"
+                      className="menu_navigation"
+                    >
                       <span>Elements >></span>
                     </a>
                     <ul>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/web_icons.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/web_icons.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Web Icons</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/web_icons2.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/web_icons2.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Web Icons II</span>
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/web_icons3.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/web_icons3.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>Web Icons III</span>
                         </a>
                       </li>
@@ -688,7 +776,11 @@ class Menu extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="http://www.dcodes.net/2/docs/3d_buttons.html" target="_blank" className="menu_navigation">
+                        <a
+                          href="http://www.dcodes.net/2/docs/3d_buttons.html"
+                          target="_blank"
+                          className="menu_navigation"
+                        >
                           <span>3D Buttons</span>
                         </a>
                       </li>
