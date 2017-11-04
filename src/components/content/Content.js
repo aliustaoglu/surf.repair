@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import thunks from '../../redux/thunks/loaderThunk';
 
 class Content extends Component {
   componentDidMount() {
-    
+    this.props.changeMediaPreloader();
+    this.props.changeThunk();
   }
 
   render() {
@@ -15,10 +17,10 @@ class Content extends Component {
               <div className="sixteen columns">
                 <div className="now_page_resize">
                   <h1 onClick={this.props.changeMediaPreloader}>
-                    Fusce lobortis lorem at <span>ipsum semper</span> sagittis.<br />
-                    Vivamus molestie gravida turpis.
+                    Find a <span>surf repair</span> while travelling.<br />
+                    Shortboards, longboards, SUPs, kites...
                   </h1>
-                  <p>Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit. </p>
+                  <p>Everything related to surf</p>
                   <div className="clr" />
                 </div>
                 <div className="now_page_resize">
@@ -587,7 +589,8 @@ const mapDispatchToProps = dispatch => {
   return {
     changeMediaPreloader: () => {
       dispatch({ type: 'LOADREDUCER.CHANGE_MEDIA_PRELOADER', payload: { mediaPreloader: false } });
-    }
+    },
+    changeThunk: () => dispatch(thunks.loaderThunk(false))
   };
 };
 
