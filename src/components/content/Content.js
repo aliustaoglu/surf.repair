@@ -4,6 +4,7 @@ import thunks from '../../redux/thunks/loaderThunk';
 import Slider from './landing/Slider';
 import Columns from './landing/Columns';
 import Gallery from './landing/Gallery';
+import Map from './landing/Map';
 
 class Content extends Component {
   componentDidMount() {
@@ -26,7 +27,15 @@ class Content extends Component {
                   <p>Everything related to surf</p>
                   <div className="clr" />
                 </div>
-                <Slider />
+                <div className="now_page_resize">
+                  <Map
+                    isMarkerShown
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    loadingElement={<div style={{ height: `100%` }} />}
+                    containerElement={<div style={{ height: `400px` }} />}
+                    mapElement={<div style={{ height: `100%` }} />}
+                  />
+                </div>
                 <Columns />
               </div>
             </div>
