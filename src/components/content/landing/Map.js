@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 import PropTypes from 'prop-types';
 
 class Map extends Component {
+  componentDidMount() {
+    const map = new window.google.maps.Map(this.refs.map, {
+      zoom: 4,
+      center: {lat: -25.363882, lng: 131.044922 }
+    });
+  }
+
   render() {
     return (
-      <div>
-        <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
-          {this.props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
-        </GoogleMap>
+      <div style={{width: 800, height: 480}} ref="map">
+        
       </div>
     );
   }
 }
 
 Map.PropTypes = {
-  isMarkerDown: PropTypes.bool
+  
 }
 
 const mapStateToProps = (state, ownProps) => {
@@ -27,6 +31,6 @@ const mapDispatchToProps = dispatch => {
   return {};
 };
 
-const MapConnected = withScriptjs(withGoogleMap(connect(mapStateToProps, mapDispatchToProps)(Map)));
+const MapConnected = connect(mapStateToProps, mapDispatchToProps)(Map);
 
 export default MapConnected;

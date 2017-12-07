@@ -10,7 +10,7 @@ class Body extends Component {
         <div className="index_page">
           <Main />
           <div className="clr" />
-          <PreFooter />
+          {/*<PreFooter />*/}
           <div className="clr" />
           <Footer />
           <div className="clr" />

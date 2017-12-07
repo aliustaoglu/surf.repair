@@ -13,30 +13,30 @@ class Columns extends Component {
                 <img src="images/spacer.gif" alt="Image" width="39" height="39" border="0" />
                 <h2>
                   <a className="columnsa" href="#">
-                    Unique, Modern &amp; Clean Design.
+                    No membership required for surfers
                   </a>
                 </h2>
-                <p>Donec ut enim in risus molestie posuere non eu massa. Vestibulum vel odio vel libero rutrum. </p>
+                <p>You can become a member to gain from more functionalities but it's not necessary. Membership is free.</p>
               </div>
               <div className="colums_box no_bg colums_box_2">
                 {' '}
                 <img src="images/spacer.gif" alt="Image" width="39" height="39" border="0" />
                 <h2>
                   <a className="columnsa" href="#">
-                    Search Engine Optimized
+                    Easy membership for ding fixers
                   </a>
                 </h2>
-                <p>Donec ut enim in risus molestie posuere non eu massa. Vestibulum vel odio vel libero rutrum. </p>
+                <p>Are you a ding fixer? Become a member to reach more surfers worldwide.</p>
               </div>
               <div className="colums_box no_bg colums_box_3">
                 {' '}
                 <img src="images/spacer.gif" alt="Image" width="39" height="39" border="0" />
                 <h2>
                   <a className="columnsa" href="#">
-                    24/7 Customer Support
+                    Easy layout. Target focused
                   </a>
                 </h2>
-                <p>Donec ut enim in risus molestie posuere non eu massa. Vestibulum vel odio vel libero rutrum. </p>
+                <p>No need to scan search engines. Use simple map tool to find your fixer.</p>
               </div>
               <div className="colums_box no_bg colums_box_4">
                 {' '}
