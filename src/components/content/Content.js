@@ -20,7 +20,7 @@ class Content extends Component {
             <div className="container">
               <div className="sixteen columns">
                 <div className="now_page_resize">
-                  <h1 onClick={this.props.changeMediaPreloader}>
+                  <h1>
                     Find a <span>surf repair</span> while travelling.<br />
                     Shortboards, longboards, SUPs, kites...
                   </h1>

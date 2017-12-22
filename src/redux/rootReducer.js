@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import { headReducer } from './reducers/headReducer';
-import { menuReducer } from './reducers/menuReducer';
 import { loadReducer } from './reducers/loadReducer';
+import { mapReducer } from './reducers/mapReducer';
 
 const allReducers = {
-  loadReducer
+  loadReducer,
+  mapReducer
 };
 
 export const rootReducer = combineReducers(allReducers);
