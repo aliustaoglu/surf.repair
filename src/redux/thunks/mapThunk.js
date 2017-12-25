@@ -1,15 +1,17 @@
-import { MAP_ACTIONS, fetchMapData, successMapData, failedMapData } from '../reducers/mapReducer';
-
+import { fetchMapData, successMapData, failedMapData } from '../reducers/mapReducer';
+import { endPoints } from '../../configs/gateways';
 
 export const loadMapData = params => {
   return (dispatch, getState) => {
     dispatch(fetchMapData());
-    fetch('https://uknbu6qzl9.execute-api.us-east-1.amazonaws.com/beta')
+    fetch(endPoints.mapData)
       .then(response => {
         return response.json();
       })
       .then(data => {
         dispatch(successMapData(data));
+      }).catch(error => {
+        dispatch(failedMapData(error));
       });
   };
 };
