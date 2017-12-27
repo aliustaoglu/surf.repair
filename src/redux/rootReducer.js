@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { loadReducer } from './reducers/loadReducer';
-import { mapReducer } from './reducers/mapReducer';
+import { mapData } from './reducers/mapData';
 
 const allReducers = {
   loadReducer,
-  mapReducer
+  mapData
 };
 
 export const rootReducer = combineReducers(allReducers);

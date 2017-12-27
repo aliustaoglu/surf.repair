@@ -1,17 +1,9 @@
-import { fetchMapData, successMapData, failedMapData } from '../reducers/mapReducer';
+import { fetchMapData, successMapData, failedMapData } from '../reducers/mapData';
 import { endPoints } from '../../configs/gateways';
+import { fetchHandlerDispatcher } from '../thunkHelper';
 
 export const loadMapData = params => {
   return (dispatch, getState) => {
-    dispatch(fetchMapData());
-    fetch(endPoints.mapData)
-      .then(response => {
-        return response.json();
-      })
-      .then(data => {
-        dispatch(successMapData(data));
-      }).catch(error => {
-        dispatch(failedMapData(error));
-      });
+    fetchHandlerDispatcher(dispatch, endPoints.mapData, successMapData, failedMapData, fetchMapData);
   };
 };
